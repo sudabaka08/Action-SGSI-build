@@ -18,14 +18,14 @@ on:
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
-        default: 'AB'
+        default: 'A'
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
         default: 'SGSI.zip'
 
 
-permissions: read-all|write-all
+permissions: write-all
 
 jobs:
   build:
