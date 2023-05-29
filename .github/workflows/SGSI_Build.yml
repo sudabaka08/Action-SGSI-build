@@ -25,7 +25,7 @@ on:
         default: 'SGSI.zip'
 
 
-
+permissions: read-all|write-all
 
 jobs:
   build:
